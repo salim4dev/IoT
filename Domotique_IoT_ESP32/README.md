@@ -9,7 +9,7 @@ Ce projet implémente un **système domotique IoT** basé sur une carte **ESP32*
 - Visualiser et gérer les informations via un **Dashboard web**.
 
 L’objectif est de fournir une solution simple, évolutive et extensible pour un système domotique intelligent.
-![Aperçu du Dashboard](cap3.png)
+![Aperçu du Dashboard](cap3.PNG)
 
 ---
 
