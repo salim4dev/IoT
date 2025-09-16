@@ -32,7 +32,26 @@ L’objectif est de fournir une solution simple, évolutive et extensible pour u
 ![Fonctionnement](fonct2.png)
 
 ---
+## 🔌 Circuit & Connexions
+![Circuit](circuit3.PNG)
+![Circuit](c1.PNG)
+![Circuit](c2.PNG)
+![Circuit](c3.PNG)
 
+---
+## Fonctionnement
+![fonctionnement](explication.PNG)
+
+---
+## Enregistrement sur la base de données
+1. **ESP32** envoie les données des capteurs (ex : température, humidité, luminosité) via une requête **HTTP POST** ou **GET** vers une API PHP.
+2. **PHP** reçoit les données et exécute une requête `INSERT` dans la base **MySQL**.
+3. Les données sont ensuite affichées dans le **Dashboard** et consultables depuis **phpMyAdmin**.
+![Circuit](admin.PNG)
+![Circuit](state_save.PNG)
+![Circuit](temp_save.PNG)
+
+---
 ## Technologies utilisées
 - **ESP32** (Arduino IDE ou PlatformIO pour la programmation)  
 - **WiFi** (protocole HTTP ou MQTT pour la communication)  
