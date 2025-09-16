@@ -19,7 +19,7 @@ Ce projet vise à :
 - **MITM / Man-in-the-Middle** : interférences détectables dans les flux de commandes ou télémétrie.  
 - **Deauthentication** : instabilités radio et déconnexions massives surveillées via logs et captures réseau.  
 ![Attques](mitm.PNG)
-![Attques](parrot.PNG)
+![Attques](parrot.png)
 
 ---
 ## 🛡️ IDS/IPS et prévention
